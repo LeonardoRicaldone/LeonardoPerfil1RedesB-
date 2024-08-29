@@ -1,3 +1,128 @@
-body{
+* {
+    font-family: Cambria;
+}
+
+body {
     margin: 0;
+    margin-top: 60px;
+}
+
+
+header {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+}
+
+#titulo {
+    color: white;
+    padding: 0px 1150px 0px 20px;
+}
+
+nav {
+    position: fixed;
+    /* Fija el nav en la pantalla */
+    top: 0;
+    /* Lo coloca en la parte superior */
+    left: 0;
+    /* Lo alinea con el borde izquierdo */
+    width: 100%;
+    /* Hace que el nav ocupe todo el ancho de la pantalla */
+    background-color: black;
+    /* Color de fondo (ajústalo según tu diseño) */
+    color: white;
+    /* Color del texto (ajústalo según tu diseño) */
+    padding: 10px 0;
+    /* Añade espacio alrededor del contenido */
+    z-index: 1000;
+    /* Asegura que el nav esté sobre otros elementos */
+}
+
+.paginas {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    font-style: unset;
+}
+
+
+
+
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    /* Asegura que el contenedor ocupe el 100% del ancho disponible */
+}
+
+.image-container img {
+    width: 100%;
+    /* La imagen se ajusta al ancho del contenedor */
+    height: auto;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    /* Cambia según sea necesario */
+    font-size: 36px;
+    /* Ajusta según el tamaño que desees */
+    text-align: center;
+    font-weight: bold;
+    /* Opcional: hace el texto en negrita */
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.imgIzquierda{
+    display: flex;
+    width: 1200px;
+   
+}
+
+.imgDerecha{
+    display: flex;
+    width: 1200px;
+}
+
+.imgCentral{
+    display: flex;
+    width: 1200px;
+}
+
+.img{
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.soloflex{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+footer {
+    background-color: darkcyan;
+
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
 }
